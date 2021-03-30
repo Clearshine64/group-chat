@@ -1,7 +1,7 @@
 # Conference Call
 A conference call implementation using WebRTC, Socket.io and Node.js.
 
-[!Sample Picture](https://github.com/webpro2021/group-chat/blob/master/picture.png)
+![Sample Picture](https://github.com/webpro2021/group-chat/blob/master/picture.png)
 
 # Getting Started
 - Run `npm ci`
