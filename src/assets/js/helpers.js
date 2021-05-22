@@ -54,10 +54,11 @@ export default {
 
 
     getUserFullMedia() {
+        console.log('getUserFulMedia called...')
         if ( this.userMediaAvailable() ) {
             return navigator.mediaDevices.getUserMedia( {
                 video: true,
-                audio: false,
+                audio: true,
                 /*audio: {
                     echoCancellation: true,
                     noiseSuppression: true
