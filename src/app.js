@@ -1,9 +1,6 @@
 let express = require( 'express' );
 let app = express(); 
 
-//http server
-//let server = require( 'http' ).Server( app ); 
-
 //https server
 let fs = require('fs');
 let privateKey  = fs.readFileSync('key.pem', 'utf8');
